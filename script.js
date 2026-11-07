@@ -215,7 +215,7 @@ function initContactForm() {
     const email = fields.email.input.value.trim();
     const message = fields.message.input.value.trim();
 
-    const recipient = "hello@example.com"; /* <-- replace with your email */
+    const recipient = "deyankit781@gmail.com"; /* <-- replace with your email */
     const subject = encodeURIComponent(`Portfolio enquiry from ${name}`);
     const body = encodeURIComponent(
       `${message}\n\n—\nFrom: ${name}\nReply to: ${email}`,
