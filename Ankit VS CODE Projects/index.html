@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Your Name, a developer and designer building clean, thoughtful digital experiences."
+    />
+    <title>Ankit Dey | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a href="#home" class="skip-link">Skip to content</a>
+
+    <!-- ============ NAVIGATION ============ -->
+    <header class="navbar" id="navbar">
+      <div class="container nav-inner">
+        <a href="#home" class="logo" aria-label="Back to top"
+          >YN<span>.</span></a
+        >
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="navMenu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <a href="#contact" class="btn btn-primary btn-small nav-cta"
+            >Let's talk</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============ HERO ============ -->
+      <section class="hero section" id="home">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Hello, I'm</p>
+            <h1 class="hero-title">Ankit Dey</h1>
+            <p class="hero-role">Developer &amp; Designer</p>
+            <p class="hero-text">
+              I craft fast, accessible, and visually refined websites and
+              applications. I care about the details: the spacing, the motion,
+              and the code behind them.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View my work</a>
+              <a href="#contact" class="btn btn-outline">Get in touch</a>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="visual-card">
+              <div class="avatar">YN</div>
+              <div class="visual-meta">
+                <span class="status-dot"></span>
+                <span>Available for new projects</span>
+              </div>
+            </div>
+            <div class="floating-chip chip-one">HTML · CSS · JS</div>
+            <div class="floating-chip chip-two">React · Node</div>
+          </div>
+        </div>
+
+        <a
+          href="#about"
+          class="scroll-hint"
+          aria-label="Scroll to about section"
+        >
+          <span class="mouse"></span>
+        </a>
+      </section>
+
+      <!-- ============ ABOUT ============ -->
+      <section class="about section" id="about">
+        <div class="container">
+          <header class="section-header reveal">
+            <p class="eyebrow">01 · About</p>
+            <h2 class="section-title">A little about me</h2>
+          </header>
+
+          <div class="about-grid">
+            <div class="about-text reveal">
+              <p>
+                I'm a developer and designer who enjoys turning ideas into
+                products people love to use. I focus on clean interfaces,
+                maintainable code, and experiences that feel effortless.
+              </p>
+              <p>
+                Whether it's a small landing page or a full web application, I
+                approach every project with the same care: understanding the
+                goal, designing with purpose, and building with precision.
+              </p>
+              <p>
+                When I'm not coding, you'll find me exploring design systems,
+                reading about typography, or learning something new.
+              </p>
+            </div>
+
+            <aside class="about-facts reveal">
+              <div class="fact">
+                <span class="fact-label">Based in</span>
+                <span class="fact-value">Assam,Guwahati,India</span>
+              </div>
+              <div class="fact">
+                <span class="fact-label">Experience</span>
+                <span class="fact-value">3+ years</span>
+              </div>
+              <div class="fact">
+                <span class="fact-label">Projects completed</span>
+                <span class="fact-value">25+</span>
+              </div>
+              <div class="fact">
+                <span class="fact-label">Availability</span>
+                <span class="fact-value"
+                  >Open to freelance &amp; full-time</span
+                >
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SKILLS ============ -->
+      <section class="skills section" id="skills">
+        <div class="container">
+          <header class="section-header reveal">
+            <p class="eyebrow">02 · Skills</p>
+            <h2 class="section-title">What I work with</h2>
+            <p class="section-subtitle">
+              The tools and technologies I use to bring ideas to life.
+            </p>
+          </header>
+
+          <div class="skills-grid">
+            <article class="skill-card reveal">
+              <h3 class="skill-card-title">Frontend</h3>
+              <ul class="skill-list">
+                <li>
+                  <div class="skill-row">
+                    <span>HTML &amp; CSS</span><span>95%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-fill" style="--level: 95%"></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-row">
+                    <span>JavaScript</span><span>90%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-fill" style="--level: 90%"></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-row">
+                    <span>React</span><span>85%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-fill" style="--level: 85%"></div>
+                  </div>
+                </li>
+              </ul>
+            </article>
+
+            <article class="skill-card reveal">
+              <h3 class="skill-card-title">Backend</h3>
+              <ul class="skill-list">
+                <li>
+                  <div class="skill-row">
+                    <span>Node.js</span><span>85%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-fill" style="--level: 85%"></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-row">
+                    <span>Python</span><span>75%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-fill" style="--level: 75%"></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-row">
+                    <span>SQL &amp; MongoDB</span><span>80%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-fill" style="--level: 80%"></div>
+                  </div>
+                </li>
+              </ul>
+            </article>
+
+            <article class="skill-card reveal">
+              <h3 class="skill-card-title">Design &amp; Tools</h3>
+              <div class="tag-cloud">
+                <span class="tag">Figma</span>
+                <span class="tag">Git</span>
+                <span class="tag">Responsive Design</span>
+                <span class="tag">Accessibility</span>
+                <span class="tag">Docker</span>
+                <span class="tag">Testing</span>
+                <span class="tag">UI/UX</span>
+                <span class="tag">Performance</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PROJECTS ============ -->
+      <section class="projects section" id="projects">
+        <div class="container">
+          <header class="section-header reveal">
+            <p class="eyebrow">03 · Projects</p>
+            <h2 class="section-title">Selected work</h2>
+            <p class="section-subtitle">A few projects I'm proud of.</p>
+          </header>
+
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <div class="project-thumb thumb-1" aria-hidden="true">
+                <span>01</span>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">E-Commerce Platform</h3>
+                <p class="project-desc">
+                  A fast, responsive online store with a streamlined checkout
+                  flow and an admin dashboard.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">React</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">Stripe</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-link">Live demo</a>
+                  <a href="#" class="project-link">Source code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-thumb thumb-2" aria-hidden="true">
+                <span>02</span>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Task Management App</h3>
+                <p class="project-desc">
+                  A collaborative task tracker with drag-and-drop boards,
+                  real-time updates, and reminders.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">Firebase</span>
+                  <span class="tag">CSS</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-link">Live demo</a>
+                  <a href="#" class="project-link">Source code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-thumb thumb-3" aria-hidden="true">
+                <span>03</span>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Portfolio Design System</h3>
+                <p class="project-desc">
+                  A reusable component library with consistent tokens,
+                  typography, and accessible patterns.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Figma</span>
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-link">Live demo</a>
+                  <a href="#" class="project-link">Source code</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section class="contact section" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-info reveal">
+            <p class="eyebrow">04 · Contact</p>
+            <h2 class="section-title">Let's build something together</h2>
+            <p class="contact-text">
+              Have a project in mind or just want to say hello? Send me a
+              message and I'll get back to you within a day or two.
+            </p>
+
+            <ul class="contact-links">
+              <li>
+                <span class="contact-label">Email</span>
+                <a href="mailto:hello@example.com" class="contact-value"
+                  >deyankit781@gmail.com</a
+                >
+              </li>
+              <li>
+                <span class="contact-label">GitHub</span>
+                <a
+                  href="#"
+                  class="contact-value"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >github.com/deyankit781-oss</a
+                >
+              </li>
+              <li>
+                <span class="contact-label">LinkedIn</span>
+                <a
+                  href="#"
+                  class="contact-value"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >linkedin.com/in/yourname</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                autocomplete="name"
+                required
+              />
+              <span class="error-message" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Gmail"
+                autocomplete="email"
+                required
+              />
+              <span class="error-message" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Tell me about your project..."
+                required
+              ></textarea>
+              <span class="error-message" id="messageError"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">
+              Send message
+            </button>
+            <p
+              class="form-note"
+              id="formNote"
+              role="status"
+              aria-live="polite"
+            ></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+        <a href="#home" class="back-to-top" aria-label="Back to top"
+          >Back to top ↑</a
+        >
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
